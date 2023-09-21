@@ -13,7 +13,7 @@ import PrivacyPage from './pages/PrivacyPage';
 import styles from "./styles/App.module.css";
 
 function App() {
-
+//react hooks
 	const [loggedInUser, setLoggedInUser] = useState<User | null>(null);
 
 	const [showSignUpModal, setShowSignUpModal] = useState(false);
