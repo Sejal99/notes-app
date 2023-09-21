@@ -11,4 +11,6 @@ mongoose.connect(env.MONGO_CONNECTION_STRING)
             console.log("Server running on port: " + port);
         });
     })
+    //catch errors
+    
     .catch(console.error);
